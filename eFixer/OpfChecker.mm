@@ -64,7 +64,7 @@
     NSMutableString *strOutput = [NSMutableString stringWithCapacity:1000];
 
     CkoZip *zip = [[CkoZip alloc] init];
-    success = [zip UnlockComponent: @"HARPERZIP_MbqLJJeWkRyu"];
+    success = [zip UnlockComponent: @"????ERZIP_????????????"];
     if (success != YES) {
         [strOutput appendString: zip.LastErrorText];
         [strOutput appendString: @"\n"];
